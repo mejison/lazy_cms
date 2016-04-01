@@ -1,0 +1,3 @@
+<?php
+
+	$_errors[USER][TEXT]['ua']['units_add_title'] = "Спроба створення нового юніту";

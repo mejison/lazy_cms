@@ -1,0 +1,4 @@
+<?php
+	
+	$_langs['ua']['units_name'] = "Назва";
+	$_langs['ua']['units_folder'] = "Тека";

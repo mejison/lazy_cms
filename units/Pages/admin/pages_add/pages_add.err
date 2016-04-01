@@ -1,0 +1,3 @@
+<?php
+	
+	$errors[CLIENT][USER][TEXT]['ua']['pages_text'] = "Спроба створення сторінки";

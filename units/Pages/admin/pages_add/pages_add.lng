@@ -1,0 +1,9 @@
+<?php
+	
+	$langs[CLIENT]['ua']['pages_add_title'] = "Створити сторінку";
+	$langs[CLIENT]['ua']['pages_add_title_edit'] = "Редагувати сторінку";
+	
+	$langs[SERVER]['ua']['pages_name'] = "Назва сторінки";
+	$langs[SERVER]['ua']['pages_text'] = "Текст сторінки";
+	$langs[SERVER]['ua']['pages_active'] = "Зробити сторінку доступною для перегляду";
+	$langs[SERVER]['ua']['pages_mark'] = "Позначити сторінку для службових потреб";

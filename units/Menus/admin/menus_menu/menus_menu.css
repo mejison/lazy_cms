@@ -1,0 +1,114 @@
+div.menus_item {
+	display: inline-block;
+	position: relative;
+	z-index: 100;
+	vertical-align: top;
+	padding: 5px;
+}
+
+a.link_menus_item {
+	display: block;
+	text-decoration: none;
+	padding: 0 15px;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 3px;
+}
+
+a.link_menus_item span {
+	display: inline-block;
+	border-width: 4px 3px;
+	border-color: #fff rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+	border-style: solid;
+	position: relative;
+	top: 2px;
+	margin-left: 10px;
+}
+
+div.menus_item.hover a.link_menus_item {
+	box-shadow: 0 0 5px #fff;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+div.sub_menus_box {
+	display: none;
+	position: absolute;
+	z-index: 10;
+	top: 120%;
+	left: 5px;
+	min-width: 150px;
+	border-radius: 5px;
+	padding: 5px;
+	box-shadow: 0 0 5px #fff;
+	
+	background: #2c2c2c;
+	background: -webkit-linear-gradient(center top, #585858, #2c2c2c);
+	background: -moz-linear-gradient(center top, #585858, #2c2c2c);
+	background: -ms-linear-gradient(center top, #585858, #2c2c2c);
+	background: -o-linear-gradient(center top, #585858, #2c2c2c);
+}
+
+div.sub_menus_box:before {
+	content: "";
+	display: inline-block;
+	border-width: 8px 10px;
+	border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #585858 rgba(255, 255, 255, 0);
+	border-style: solid;
+	position: absolute;
+	z-index: 10;
+	top: -15px;
+	left: 10px;
+}
+
+div.sub_menus_box:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	z-index: 20;
+	top: -20px;
+	left: 0;
+}
+
+div.menus_item.hover div.sub_menus_box {
+	display: block;
+}
+
+div.sub_menus_item {
+	position: relative;
+}
+
+div.sub_menus_sep {
+	height: 1px;
+}
+
+a.link_sub_menu_item {
+	display: block;
+	line-height: 25px; 
+	color: #fff;
+	padding: 0 10px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+div.sub_menus_item {
+	border-radius: 3px;
+}
+
+div.sub_menus_item.hover {
+	background: #fff;
+}
+
+div.sub_menus_item.active {
+	background: #fff;
+}
+
+div.sub_menus_item.hover a.link_sub_menu_item {
+	color: #424242;
+}
+
+div.sub_menus_item.active a.link_sub_menu_item {
+	cursor: default;
+	color: #424242;
+}

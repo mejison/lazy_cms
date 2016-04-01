@@ -1,0 +1,7 @@
+<?php
+	
+	$_langs['ua']['db_error_title'] = "Ошибка базы данных";
+	$_langs['ua']['db_message'] = "Сообщение";
+	$_langs['ua']['db_query'] = "Запрос";
+	$_langs['ua']['db_file'] = "Файл";
+	$_langs['ua']['db_line'] = "Строка";

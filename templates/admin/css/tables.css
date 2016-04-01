@@ -1,0 +1,131 @@
+table {
+	border-collapse: collapse;
+}
+
+table.table_hundret {
+	width: 100%;
+}
+
+table.table_center {
+	margin: 0 auto;
+}
+
+table.table tr:nth-of-type(2n+1) {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+td {
+	margin: 0;
+	padding: 1%;
+	text-align: left;
+	vertical-align: top;
+	line-height: 0;
+	font-size: 0;
+}
+
+tr.tr_head {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+tr.tr_filter {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+td.td_button {
+	width: 30px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+td.td_texts {
+	text-align: left;
+	vertical-align: middle;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+td.td_hidden {
+	display: none;
+}
+
+tr.tr_hidden {
+	display: none;
+}
+
+td.td_center {
+	text-align: center;
+}
+
+td.td_left {
+	text-align: left;
+}
+
+td.td_right {
+	text-align: right;
+}
+
+td.td_top {
+	vertical-align: top;
+}
+
+td.td_middle {
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+tr.tr_filter td {
+	padding: 2px;
+}
+
+tr.tr_result td {
+	padding: 4px 2px;
+}
+
+td.td_group {
+	width: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+td.td_id {
+	width: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+td.td_check {
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+tr.tr_result td.td_button {
+	padding: 0;
+}
+
+td.td_users_sep {
+	width: 5px;
+}

@@ -1,0 +1,6 @@
+<?php
+	
+	$_langs['ua']['debug_title'] = "Відлагодження";
+	$_langs['ua']['debug_type'] = "Тип";
+	$_langs['ua']['debug_value'] = "Значення";
+	$_langs['ua']['history_title'] = "Історія помилок";

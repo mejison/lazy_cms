@@ -1,0 +1,140 @@
+<?php
+	
+	$_errors[USER][TEXT]['ua']['edit'] = "Вибірка даних для редагування";
+	$_errors[USER][TEXT]['ua']['get'] = "Вибірка даних";
+	$_errors[USER][TEXT]['ua']['delete'] = "Видалення об'єкту";
+	$_errors[USER][TEXT]['ua']['check_change'] = "Зміна атрибуту для об'єкту";
+	$_errors[USER][TEXT]['ua']['action_title'] = "Спроба виконання дії над обраними об'єктами";
+	$_errors[USER][ERROR]['ua']['actions_empty'] = "Ви не обрали жодного об'єкту";
+	$_errors[USER][ERROR]['ua']['get'] = "Помилка бази даних при виборі даних із таблиці &laquo;[:table]&raquo;";
+	$_errors[USER][ERROR]['ua']['empty'] = "При виборі даних із таблиці &laquo;[:table]&raquo; не було знайдено жодних даних";
+	$_errors[USER][ERROR]['ua']['insert'] = "Помилка бази даних при записі в таблицю &laquo;[:table]&raquo;";
+	$_errors[USER][ERROR]['ua']['update'] = "Помилка бази даних при оновленні в таблиці &laquo;[:table]&raquo;";
+	$_errors[USER][ERROR]['ua']['delete'] = "Помилка бази даних при видаленні запису";
+	$_errors[USER][OK]['ua']['delete_ok'] = "Запис успішно видалений з бази даних";
+	$_errors[USER][OK]['ua']['insert_ok'] = "Нові дані успішно збережені";
+	$_errors[USER][OK]['ua']['update_ok'] = "Оновлені дані успішно збережені";
+	$_errors[USER][OK]['ua']['edit_ok'] = "Дані для редагування успішно вибрані з бази даних";
+	
+	$_errors[USER][ERROR]['ua']['errors_empty'] = "Текст помилки з кодом &laquo;[:code]&raquo; не знайдений";
+	$_errors[USER][TEXT]['ua']['title_empty'] = "Заголовок з кодом &laquo;[:code]&raquo;";
+	$_errors[USER][WARNING]['ua']['ajax_lost'] = "Немає відповіді від серверу. Можливо стався збій";
+	$_errors[USER][WAIT]['ua']['wait'] = "Зачекайте. Іде обробка даних...";
+	$_errors[USER][ERROR]['ua']['empty_element'] = "На сторінці відстуній елемент з ідентифікатором #[:id]";
+	
+	$_errors[USER][ERROR]['ua']['empty_value'] = "У поле &laquo;[:name]&raquo; не було введено жодних даних";
+	$_errors[HINT][ERROR]['ua']['empty_value'] = "Поле обов'язкове для заповнення";
+	$_errors[USER][ERROR]['ua']['symbols_value'] = "Поле &laquo;[:name]&raquo; містить заборонені символи: [:symbols]";
+	$_errors[HINT][ERROR]['ua']['symbols_value'] = "Заборонені символи: [:symbols]";
+	$_errors[USER][ERROR]['ua']['min_text'] = "Мінімальна кількість символів для поля &laquo;[:name]&raquo; - [:min]";
+	$_errors[HINT][ERROR]['ua']['min_text'] = "Мінімальна кількість символів: [:min]";
+	$_errors[USER][ERROR]['ua']['max_text'] = "Максимальна кількість символів для поля &laquo;[:name]&raquo; - [:max]";
+	$_errors[HINT][ERROR]['ua']['min_text'] = "Максимальна кількість символів: [:max]";
+	$_errors[USER][ERROR]['ua']['wrong_email'] = "Email введений некорректно";
+	$_errors[HINT][ERROR]['ua']['wrong_email'] = "Email введений некорректно";
+	$_errors[USER][ERROR]['ua']['values_not_same'] = "Вы невірно повторили значення в цьому полі";
+	$_errors[HINT][ERROR]['ua']['values_not_same'] = "Значення не співпадають";
+	$_errors[USER][ERROR]['ua']['money_min'] = "Мінімальна сума [:min]";
+	$_errors[HINT][ERROR]['ua']['money_min'] = "Мінімальна сума [:min]";
+	$_errors[USER][ERROR]['ua']['money_max'] = "Максимальна сума [:max]";
+	$_errors[HINT][ERROR]['ua']['money_max'] = "Максимальна сума [:max]";
+	
+	
+	
+	
+	
+	
+	$errors[USER][ERROR]['ru']['session_expire'] = "Сессия устарела. Обновите страницу";
+	$errors[USER][ERROR]['ru']['insert'] = "Ошибка при вставке записи в базу данных";
+	$errors[USER][ERROR]['ru']['update'] = "Ошибка при обновлении записи в базе данных";
+	$errors[USER][OK]['ru']['insert_ok'] = "Новая запись успешно добавлена в базу данных";
+	$errors[USER][OK]['ru']['update_ok'] = "Обновление записи в базе данных прошло успешно";
+	
+	$errors[USER][ERROR]['ru']['errors_empty'] = "Текст ошибки с кодом &laquo;[:key]&raquo; не найден";
+	$errors[USER][ERROR]['ru']['empty_element'] = "На странице отсутствует элемент с идентификатором #[:id]";
+	$errors[USER][WARNING]['ru']['ajax_lost'] = "Нет ответа от сервера. Возможно, случился сбой на сервере";
+	$errors[USER][WAIT]['ru']['wait'] = "Подождите. Идет обработка данных...";
+	
+	$errors[USER][ERROR]['ru']['empty_value'] = "В поле &laquo;[:name]&raquo; не было введено ни одного символа";
+	$errors[USER][ERROR]['ru']['symbols_value'] = "Поле &laquo;[:name]&raquo; содержит запрещенные символы: [:symbols]";
+	$errors[USER][ERROR]['ru']['min_text'] = "Минимальное количество символов для поля &laquo;[:name]&raquo; - [:min]";
+	$errors[USER][ERROR]['ru']['max_text'] = "Максимальное количество символов для поля &laquo;[:name]&raquo; - [:max]";
+	$errors[USER][ERROR]['ru']['wrong_email'] = "Email введен некорректно";
+	$errors[USER][ERROR]['ru']['values_not_same'] = "Вы неправильно повторили значение в этом поле";
+	$errors[USER][ERROR]['ru']['money_min'] = "Минимальная сумма [:min]";
+	$errors[USER][ERROR]['ru']['money_max'] = "Максимальная сумма [:max]";
+	
+	$errors[USER][ERROR]['ru']['empty_value_hint'] = "Обязательно для заполнения";
+	$errors[USER][ERROR]['ru']['symbols_value_hint'] = "Запрещенные символы: [:symbols]";
+	$errors[USER][ERROR]['ru']['min_text_hint'] = "Минимальное количество символов: [:min]";
+	$errors[USER][ERROR]['ru']['max_text_hint'] = "Максимальное количество символов: [:max]";
+	$errors[USER][ERROR]['ru']['wrong_email_hint'] = "Email введен некорректно";
+	$errors[USER][ERROR]['ru']['values_not_same_hint'] = "Значения не совпадают";
+	$errors[USER][ERROR]['ru']['money_min_hint'] = "Минимальная сумма [:min]";
+	$errors[USER][ERROR]['ru']['money_max_hint'] = "Максимальная сумма [:max]";
+	
+	
+	
+	
+	
+	$errors[USER][ERROR]['en']['session_expire'] = "Session is too old. Refresh the page";
+	$errors[USER][ERROR]['en']['insert'] = "Error when inserting records into a database";
+	$errors[USER][ERROR]['en']['update'] = "Failed to update records in the database";
+	$errors[USER][OK]['en']['insert_ok'] = "The new record is successfully added to the database";
+	$errors[USER][OK]['en']['update_ok'] = "Update records in the database is successful";
+	
+	$errors[USER][ERROR]['en']['errors_empty'] = "The text of the error with code &laquo;[:key]&raquo; is not found";
+	$errors[USER][ERROR]['en']['empty_element'] = "The page has not element with the ID #[:id]";
+	$errors[USER][WARNING]['en']['ajax_lost'] = "No response from the server. Perhaps there was a failure on the server";
+	$errors[USER][WAIT]['en']['wait'] = "Wait. Processing of data...";
+	
+	$errors[USER][ERROR]['en']['empty_value'] = "In the field &laquo;[:name]&raquo; was not entered a single character";
+	$errors[USER][ERROR]['en']['symbols_value'] = "Field &laquo;[:name]&raquo; contains illegal characters: [:symbols]";
+	$errors[USER][ERROR]['en']['min_text'] = "Minimum number of characters for the field &laquo;[:name]&raquo; - [:min]";
+	$errors[USER][ERROR]['en']['max_text'] = "Maximum number of characters for the field &laquo;[:name]&raquo; - [:max]";
+	$errors[USER][ERROR]['en']['wrong_email'] = "Email is invalid";
+	$errors[USER][ERROR]['en']['values_not_same'] = "You do not correctly repeat the value in this field";
+	$errors[USER][ERROR]['en']['money_min'] = "Minimum amount [:min]";
+	$errors[USER][ERROR]['en']['money_max'] = "Maximum amount [:max]";
+	
+	$errors[USER][ERROR]['en']['empty_value_hint'] = "The field is required";
+	$errors[USER][ERROR]['en']['symbols_value_hint'] = "Illegal characters: [:symbols]";
+	$errors[USER][ERROR]['en']['min_text_hint'] = "Minimum number of characters: [:min]";
+	$errors[USER][ERROR]['en']['max_text_hint'] = "Maximum number of characters: [:max]";
+	$errors[USER][ERROR]['en']['wrong_email_hint'] = "Email is invalid";
+	$errors[USER][ERROR]['en']['values_not_same_hint'] = "Values ​​do not match";
+	$errors[USER][ERROR]['en']['money_min_hint'] = "Minimum amount [:min]";
+	$errors[USER][ERROR]['en']['money_max_hint'] = "Maximum amount [:max]";
+	
+	
+	
+	
+	
+	$errors[USER][ERROR]['sw']['session_expire'] = "Session är för gammal. Uppdatera sidan";
+	$errors[USER][ERROR]['sw']['insert'] = "Fel när du sätter rekord i en databas";
+	$errors[USER][ERROR]['sw']['update'] = "Det gick inte att uppdatera poster i databasen";
+	$errors[USER][OK]['sw']['insert_ok'] = "Den nya posten har lagts till i databasen";
+	$errors[USER][OK]['sw']['update_ok'] = "Uppdatera poster i databasen är framgångsrik";
+	
+	$errors[USER][ERROR]['sw']['errors_empty'] = "Texten felet med koden &laquo;[:key]&raquo; inte hittas";
+	$errors[USER][ERROR]['sw']['empty_element'] = "Sidan har inte element med ID #[:id]";
+	$errors[USER][WARNING]['sw']['ajax_lost'] = "Inget svar från servern. Kanske var det ett misslyckande på servern";
+	$errors[USER][WAIT]['sw']['wait'] = "Vänta. Behandling av uppgifter...";
+	
+	$errors[USER][ERROR]['sw']['empty_value'] = "I fältet &laquo;[:name]&raquo; inte angett en enstaka tecken";
+	$errors[USER][ERROR]['sw']['symbols_value'] = "Fält &laquo;[:name]&raquo; innehåller otillåtna tecken: [:symbols]";
+	$errors[USER][ERROR]['sw']['min_text'] = "Minsta antal tecken för fältet &laquo;[:name]&raquo; - [:min]";
+	$errors[USER][ERROR]['sw']['max_text'] = "Maximalt antal tecken för fältet &laquo;[:name]&raquo; - [:max]";
+	$errors[USER][ERROR]['sw']['wrong_email'] = "E-post är ogiltig";
+	$errors[USER][ERROR]['sw']['values_not_same'] = "Du behöver inte korrekt upprepa värdet i det här fältet";
+	$errors[USER][ERROR]['sw']['money_min'] = "Minsta belopp [:min]";
+	$errors[USER][ERROR]['sw']['money_max'] = "Maximalt belopp [:max]";
+	
+	$errors[USER][ERROR]['sw']['empty_value_hint'] = "Fältet krävs";
+	$errors[USER][ERROR]['sw']['symbols_value_hint'] = "Otillåtna tecken: [:symbols]";
+	$errors[USER][ERROR]['sw']['min_text_hint'] = "Minsta antal tecken: [:min]";
+	$errors[USER][ERROR]['sw']['max_text_hint'] = "Maximalt antal tecken: [:max]";
+	$errors[USER][ERROR]['sw']['wrong_email_hint'] = "E-post är ogiltig";
+	$errors[USER][ERROR]['sw']['values_not_same_hint'] = "Värden stämmer inte";
+	$errors[USER][ERROR]['sw']['money_min_hint'] = "Minsta belopp [:min]";
+	$errors[USER][ERROR]['sw']['money_max_hint'] = "Maximalt belopp [:max]";

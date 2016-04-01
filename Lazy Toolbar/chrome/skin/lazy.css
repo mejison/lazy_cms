@@ -1,0 +1,47 @@
+#Lazy-Toolbar {
+	padding-left: 90px;
+	background: url("chrome://lazy/skin/logo.png") 5px center no-repeat;
+}
+
+#Lazy-MainMenu {
+    list-style-image: url("chrome://lazy/skin/main.png");
+}
+
+#Lazy-Search-Button > .toolbarbutton-menubutton-button {
+   -moz-box-orient: horizontal;
+}
+
+#Lazy-Search-Button {
+	list-style-image: url("chrome://lazy/skin/web.png");
+}
+
+#Lazy-Google-Web {
+	list-style-image: url("chrome://lazy/skin/google.png");
+}
+
+#Lazy-Google-Image {
+	list-style-image: url("chrome://lazy/skin/google-images.png");
+}
+
+#Lazy-Yandex-Web {
+	list-style-image: url("chrome://lazy/skin/yandex.png");
+}
+
+#Lazy-Yandex-Image {
+	list-style-image: url("chrome://lazy/skin/yandex-images.png");
+}
+
+#Lazy-Help-Button {
+	list-style-image: url("chrome://lazy/skin/help.png");
+}
+
+#Lazy-ResizeBar {
+    background-image: url("chrome://lazy/skin/gripper.png");
+    min-height: 22px;
+    min-width: 3px;
+}
+
+#Lazy-ResizeSplitter {
+    background: transparent;
+    border: none !important;
+}

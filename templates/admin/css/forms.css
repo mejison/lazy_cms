@@ -1,0 +1,93 @@
+input,
+select,
+textarea {
+	padding: 0;
+	margin: 0;
+	color: #424242;
+	vertical-align: middle;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	outline: none;
+}
+
+input.input {
+	font: 14px/25px arial, sans-serif;
+	border: none;
+	background: none;
+	border-radius: 5px;
+	padding: 3px;
+	height: 25px;
+	width: 400px;
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.5);
+	position: relative;
+	z-index: 2;
+}
+
+input.short {
+	width: 196px;
+}
+
+textarea.area {
+	font: 14px/20px arial, sans-serif;
+	border: none;
+	background: none;
+	border-radius: 5px;
+	padding: 3px;
+	height: 200px;
+	width: 400px;
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.5);
+	position: relative;
+	z-index: 2;
+}
+
+select.list {
+	font: 14px/25px arial, sans-serif;
+	border: none;
+	background: none;
+	border-radius: 5px;
+	padding: 3px;
+	height: 25px;
+	width: 404px;
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+input.checkbox {
+	margin: 4px 5px 5px 0;
+}
+
+input.check {
+	margin: 0;
+}
+
+input.radio {
+	margin: 2px 5px 2px 0;
+}
+
+input.group {
+	margin: 0;
+	vertical-align: sub;
+}
+
+select.day {
+	width: 90px;
+}
+
+select.month {
+	width: 180px;
+}
+
+select.year {
+	width: 121px;
+}
+
+select.list.filter {
+	width: 110px;
+}

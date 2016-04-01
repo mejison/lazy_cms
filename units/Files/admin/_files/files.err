@@ -1,0 +1,12 @@
+<?php
+
+	$errors[LOG][ERROR]['ua']['config_ok'] = "Файл конфігурації для блоку &laquo;[:folder]&raquo; успішно зчитаний";
+	$errors[LOG][WARNING]['ua']['config_empty'] = "Файл конфігурації для блоку &laquo;[:folder]&raquo; відсутній";
+	$errors[LOG][ERROR]['ua']['view_ok'] = "Файл відображення &laquo;[:file]&raquo; успішно зчитаний";
+	$errors[LOG][WARNING]['ua']['view_empty'] = "Файл відображення &laquo;[:file]&raquo; не існує";
+	$errors[LOG][ERROR]['ua']['block_ok'] = "Файл відображення блоку &laquo;[:folder]&raquo; успішно зчитаний";
+	$errors[LOG][WARNING]['ua']['block_empty'] = "Файл відображення блоку &laquo;[:folder]&raquo; не існує";
+	$errors[LOG][ERROR]['ua']['path_empty'] = "Папки за адресою &laquo;[:path]&raquo; не існує";
+	$errors[LOG][ERROR]['ua']['path_error'] = "Помилка вибору списку файлів за адресою &laquo;[:path]&raquo;";
+	$errors[LOG][ERROR]['ua']['files_empty'] = "За адресою &laquo;[:path]&raquo; відсутні файли типу &laquo;[:type]&raquo;";
+	$errors[LOG][ERROR]['ua']['files_ok'] = "Файли за адресою &laquo;[:path]&raquo; типу &laquo;[:type]&raquo; успішно вибрані";

@@ -1,0 +1,10 @@
+<?php
+
+	$_langs['ua']['wait'] = "Зачекайте...";
+
+	$_langs['ua']['s_enter'] = "Ввійти";
+	$_langs['ua']['s_submit'] = "Отправить";
+	$_langs['ua']['s_save'] = "Зберегти";
+	$_langs['ua']['s_close'] = "Закрити";
+	
+	$_langs['ua']['table_id'] = "Id";

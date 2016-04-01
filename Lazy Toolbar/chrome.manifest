@@ -1,0 +1,3 @@
+content lazy chrome/content/
+overlay chrome://browser/content/browser.xul chrome://lazy/content/lazy.xul
+skin lazy classic/1.0 chrome/skin/

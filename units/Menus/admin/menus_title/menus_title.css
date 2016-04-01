@@ -1,0 +1,5 @@
+p.text.title {
+	font: bold 16px/1 arial, sans-serif;
+	text-shadow: 0 1px 0 #fff;
+	float: left;
+}

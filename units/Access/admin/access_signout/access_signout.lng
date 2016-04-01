@@ -1,0 +1,3 @@
+<?php
+
+		$_langs['ua']['admins_logout'] = "Вийти";

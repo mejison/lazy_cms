@@ -1,0 +1,4 @@
+<?php
+	
+	$_errors[USER][TEXT]['ua']['access_signin_title'] = "Спроба входу у адмін-панель";
+	$_errors[USER][TEXT]['ua']['access_signin_submit'] = "Пробуємо зайти в адмін панель";

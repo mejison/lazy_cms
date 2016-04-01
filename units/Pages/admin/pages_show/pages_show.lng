@@ -1,0 +1,28 @@
+<?php
+	
+	$_langs['ua']['items_add'] = "Додати сторінку";
+	
+	$_langs['ua']['pages_rows_text'] = "Знайдено сторінок";
+	$_langs['ua']['pages_text'] = "Сторінка";
+	$_langs['ua']['pages_from'] = "з";
+	$_langs['ua']['pages_onpage_text'] = "Позицій на сторінку";
+	
+	$_langs['ua']['langs_filter_actions_default'] = "Оберіть дію для обраних записів";
+	$_langs['ua']['langs_filter_group_all'] = "задіяти до усіх знайдених";
+	
+	$_langs['ua']['pages_active_2'] = "будь-які";
+	$_langs['ua']['pages_active_1'] = "активні";
+	$_langs['ua']['pages_active_0'] = "не активні";
+
+	$_langs['ua']['pages_mark_2'] = "будь-які";
+	$_langs['ua']['pages_mark_1'] = "позначені";
+	$_langs['ua']['pages_mark_0'] = "не позначені";
+	
+	$_langs['ua']['filter_date'] = "Параметри дати";
+	$_langs['ua']['filter_date_any'] = "не враховувати параметри дати";
+	$_langs['ua']['filter_date_add'] = "дата створення";
+	$_langs['ua']['filter_date_edit'] = "дата редагуваня";
+	$_langs['ua']['filter_day_any'] = "будь-який день";
+	$_langs['ua']['filter_month_any'] = "будь-який місяць";
+	$_langs['ua']['filter_year_any'] = "будь-який рік";
+	

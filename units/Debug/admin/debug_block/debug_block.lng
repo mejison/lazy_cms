@@ -1,0 +1,8 @@
+<?php
+	/*
+	$langs[SERVER]['ua']['wait'] = "Зачекайте";
+	$langs[SERVER]['ua']['wait_get'] = "Зачекайте. Іде прийом даних із серверу...";
+	$langs[SERVER]['ua']['wait_set'] = "Зачекайте. Іде передача даних на сервер...";
+	
+	$langs[CLIENT]['ua']['debug_history'] = "Історія повідомлень";
+	 */

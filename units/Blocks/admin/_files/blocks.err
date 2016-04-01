@@ -1,0 +1,8 @@
+<?php 
+	
+	$errors[LOG][ERROR]['ua']['folder_unit_empty'] = "Папки юніту &laquo;[:name]&raquo; за адресою &laquo;[:path]&raquo; не існує";
+	$errors[LOG][ERROR]['ua']['is_unit_empty'] = "Юніт &laquo;[:name]&raquo; відсутній у базі даних або не активний";
+	$errors[LOG][OK]['ua']['is_unit_ok'] = "Юніт &laquo;[:name]&raquo; активний і готовий до використання";
+	$errors[LOG][ERROR]['ua']['folder_add_empty'] = "Папки додатку &laquo;[:name]&raquo; за адресою &laquo;[:path]&raquo; не існує";
+	$errors[LOG][OK]['ua']['is_add_ok'] = "Додаток &laquo;[:name]&raquo; активний і готовий до використання";
+	$errors[LOG][OK]['ua']['blocks_info_ok'] = "Інформація про блок &laquo;[:folder]&raquo; успішно зібрана";

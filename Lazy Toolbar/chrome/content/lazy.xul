@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://lazy/skin/lazy.css" type="text/css"?>
+
+<overlay id="Lazy-Overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+         
+    <script type="application/x-javascript" src="chrome://lazy/content/lazy.js" />
+
+    <toolbox id="navigator-toolbox">
+        <toolbar id="Lazy-Toolbar" toolbarname="Lazy Toolbar" accesskey="L" class="chromeclass-toolbar" context="toolbar-context-menu" hidden="false" persist="hidden">
+            <toolbaritem flex="0">
+                <toolbarbutton id="Lazy-MainMenu" label="Main Menu " type="menu" tooltiptext="Lazy Toolbar Main Menu">
+                    <menupopup>
+                        <menuitem label="Simple Package 1" accesskey="1" oncommand="objLazyToolbar.LoadURL('http://simple.div-art.com.ua/')" />
+                        <menuitem label="Simple Package 2" accesskey="2" oncommand="objLazyToolbar.LoadURL('http://simple2.div-art.com.ua/')" />
+                        <menuitem label="Simple Package 3" accesskey="3" oncommand="objLazyToolbar.LoadURL('http://simple3.div-art.com.ua/')" />
+                        <menuseparator />
+                        <menuitem label="Div-Art Homepage" accesskey="D" oncommand="objLazyToolbar.LoadURL('http://div-art.com/')" />
+                    </menupopup>
+                </toolbarbutton>
+            </toolbaritem>
+            
+            <toolbaritem id="Lazy-SearchTerms-TBItem" persist="width">
+                <menulist id="Lazy-SearchTerms" editable="true" flex="1" minwidth="100" width="250" onkeypress="objLazyToolbar.KeyHandler(event);">
+                    <menupopup id="Lazy-SearchTermsMenu" onpopupshowing="objLazyToolbar.Populate()" />
+                </menulist>
+            </toolbaritem>
+            
+            <splitter id="Lazy-ResizeSplitter" state="open" collapse="none" resizebefore="closest" resizeafter="farthest" tooltiptext="Resize the Search Box">
+                <vbox id="Lazy-ResizeBar" />
+            </splitter>
+            
+            <toolbaritem flex="0">
+                <toolbarbutton id="Lazy-Search-Button" label="Search" type="menu-button" tooltiptext="Search in Google" oncommand="objLazyToolbar.Search(event, 'google', 'web')">
+                    <menupopup>
+                        <menuitem id="Lazy-Google-Web" label="Google Web Search" class="menuitem-iconic" oncommand="objLazyToolbar.Search(event, 'google', 'web'); event.stopPropagation();" />
+                        <menuitem id="Lazy-Google-Image" label="Google Image Search" class="menuitem-iconic" oncommand="objLazyToolbar.Search(event, 'google', 'image'); event.stopPropagation();" />
+                        <menuseparator />
+                        <menuitem id="Lazy-Yandex-Web" label="Yandex Web Search" class="menuitem-iconic" oncommand="objLazyToolbar.Search(event, 'yandex', 'web'); event.stopPropagation();" />
+                        <menuitem id="Lazy-Yandex-Image" label="Yandex Image Search" class="menuitem-iconic" oncommand="objLazyToolbar.Search(event, 'yandex', 'image'); event.stopPropagation();" />
+                    </menupopup>
+                </toolbarbutton>
+                
+                <toolbarseparator />
+                
+                <toolbarbutton id="Lazy-Help-Button" tooltiptext="Go to Help Page" label="Lazy Help" oncommand="objLazyToolbar.LoadURL('http://div-art.com/help/main/')" />
+            </toolbaritem>
+            
+            <toolbaritem id="Lazy-DynButtonContainer" />
+            
+            <toolbarspring />
+        </toolbar>
+    </toolbox>
+</overlay>

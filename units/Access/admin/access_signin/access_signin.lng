@@ -1,0 +1,6 @@
+<?php
+	
+	$_langs['ua']['logo_text'] = "Система управління сайтом";
+	$_langs['ua']['copy_text'] = "Розроблено студією веб-дизайну";
+	$_langs['ua']['access_title'] = "Ввійти у адмін-панель";
+	$_langs['ua']['access_recovery'] = "Забули пароль?";

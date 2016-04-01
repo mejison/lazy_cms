@@ -1,0 +1,15 @@
+<?php
+	
+	$_langs['ua']['php_error_title'] = "PHP Ошибка";
+	$_langs['ua']['php_message'] = "Сообщение";
+	$_langs['ua']['php_file'] = "Файл";
+	$_langs['ua']['php_line'] = "Строка";
+	
+	$_langs['ua']['E_WARNING'] = "Попередження";
+	$_langs['ua']['E_NOTICE'] = "Повідомлення";
+	$_langs['ua']['E_USER_ERROR'] = "Користувацька помилка";
+	$_langs['ua']['E_USER_WARNING'] = "Користувацьке попередження";
+	$_langs['ua']['E_USER_NOTICE'] = "Користувацьке повідомлення";
+	$_langs['ua']['E_STRICT'] = "Устарівше кодування";
+	$_langs['ua']['E_RECOVERABLE_ERROR'] = "Фатальна помилка";
+	$_langs['ua']['E_ALL'] = "Усі помилки";

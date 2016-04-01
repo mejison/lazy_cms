@@ -1,0 +1,4 @@
+<?php
+	
+	$_errors[USER][TEXT]['ua']['access_signout_submit'] = "Пробуємо вийти з адмін панелі";
+	$_errors[USER][TEXT]['ua']['access_signout_title'] = "Спроба виходу";
